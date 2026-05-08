@@ -1,0 +1,101 @@
+{
+  "token_emb.weight": {
+    "file": "token_emb_weight.bin",
+    "shape": [
+      65,
+      64
+    ],
+    "scale": 0.029071552546944206,
+    "zero_point": 0
+  },
+  "pos_emb.weight": {
+    "file": "pos_emb_weight.bin",
+    "shape": [
+      64,
+      64
+    ],
+    "scale": 0.026134673066026584,
+    "zero_point": 0
+  },
+  "blocks.0.attn.qkv.weight": {
+    "file": "blocks_0_attn_qkv_weight.bin",
+    "shape": [
+      192,
+      64
+    ],
+    "scale": 0.0029791828215591553,
+    "zero_point": 0
+  },
+  "blocks.0.attn.proj.weight": {
+    "file": "blocks_0_attn_proj_weight.bin",
+    "shape": [
+      64,
+      64
+    ],
+    "scale": 0.0024497863345258816,
+    "zero_point": 0
+  },
+  "blocks.0.mlp.0.weight": {
+    "file": "blocks_0_mlp_0_weight.bin",
+    "shape": [
+      256,
+      64
+    ],
+    "scale": 0.0021478531398172454,
+    "zero_point": 0
+  },
+  "blocks.0.mlp.2.weight": {
+    "file": "blocks_0_mlp_2_weight.bin",
+    "shape": [
+      64,
+      256
+    ],
+    "scale": 0.0018102017443949782,
+    "zero_point": 0
+  },
+  "blocks.1.attn.qkv.weight": {
+    "file": "blocks_1_attn_qkv_weight.bin",
+    "shape": [
+      192,
+      64
+    ],
+    "scale": 0.002772610487900381,
+    "zero_point": 0
+  },
+  "blocks.1.attn.proj.weight": {
+    "file": "blocks_1_attn_proj_weight.bin",
+    "shape": [
+      64,
+      64
+    ],
+    "scale": 0.0023407652152804877,
+    "zero_point": 0
+  },
+  "blocks.1.mlp.0.weight": {
+    "file": "blocks_1_mlp_0_weight.bin",
+    "shape": [
+      256,
+      64
+    ],
+    "scale": 0.003338076232925175,
+    "zero_point": 0
+  },
+  "blocks.1.mlp.2.weight": {
+    "file": "blocks_1_mlp_2_weight.bin",
+    "shape": [
+      64,
+      256
+    ],
+    "scale": 0.0023923096225017637,
+    "zero_point": 0
+  },
+  "head.weight": {
+    "file": "head_weight.bin",
+    "shape": [
+      65,
+      64
+    ],
+    "scale": 0.002719246496365765,
+    "zero_point": 0
+  }
+}
